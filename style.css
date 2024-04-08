@@ -1,193 +1,228 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
 }
 
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  line-height: 1;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
 
 main {
-  flex: 1 1 auto;
+	flex: 1 1 auto;
 }
 
 body,
 html {
-  height: 100%;
+	height: 100%;
 }
 
 input::-ms-clear {
-  display: none;
+	display: none;
 }
 
 button {
-  background-color: transparent;
-  cursor: pointer;
+	background-color: transparent;
+	cursor: pointer;
 }
 
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+	padding: 0;
+	border: 0;
 }
 
 ul li {
-  list-style: none;
+	list-style: none;
 }
 
 input:focus,
 input:active,
 button:focus,
 button:active {
-  outline: none;
+	outline: none;
 }
 /* =================================================== */
 * {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: normal;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: normal;
 }
 body {
-  display: flex;
-  background-color: rgb(231, 231, 231);
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	background-color: rgb(231, 231, 231);
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
 }
 form {
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  border: #000 0.1px solid;
-  border-bottom-width: 0;
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	border: #000 0.1px solid;
+	border-bottom-width: 0;
 }
 input[type="text"] {
-  width: 95%;
-  border: none;
-  font-size: 110%;
-  padding-left: 10px;
+	width: 95%;
+	border: none;
+	font-size: 110%;
+	padding-left: 10px;
 }
 .findBtn {
-  width: 3.2%;
-  background-color: #ffff;
-  border: none;
+	width: 3.2%;
+	background-color: #ffff;
+	border: none;
 }
 .btnImg {
-  width: 180%;
-  min-width: 180%;
+	width: 180%;
+	min-width: 180%;
 }
 .container {
-  display: flex;
-  width: 40%;
-  height: auto;
-  padding: 10px;
-  background-color: #ffff;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	width: 40%;
+	height: auto;
+	padding: 10px;
+	background-color: #ffff;
+	flex-direction: column;
+	justify-content: center;
 }
 .mainBlock {
-  width: 100%;
-  height: auto;
-  display: flex;
+	width: 100%;
+	height: auto;
+	display: flex;
 }
 
 .showWeather {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 55%;
-  height: auto;
-  border: #000 1px solid;
-  border-right-width: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 55%;
+	height: auto;
+	border: #000 1px solid;
+	border-right-width: 0px;
 }
 .cityList {
-  width: 45%;
-  height: auto;
-  border: #000 1px solid;
+	width: 45%;
+	height: auto;
+	border: #000 1px solid;
 }
-span {
-  display: flex;
-  width: 100%;
-  height: auto;
-  padding: 0px 10px 0px 10px;
-  justify-content: space-between;
-  text-align: end;
+span:not(.fav-string) {
+	display: flex;
+	width: 10%;
+	height: auto;
+	padding: 0px 10px 0px 10px;
+	justify-content: space-between;
+	text-align: end;
 }
-
+.fav-string {
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 0px 10px 0px 10px;
+	justify-content: space-between;
+	text-align: end;
+}
 .degree {
-  padding-left: 10px;
-  font-size: 50px;
-  position: sticky;
-  right: 73%;
+	padding-left: 10px;
+	font-size: 50px;
+	position: sticky;
+	right: 73%;
 }
 .iconWeather {
-  width: 50.5%;
+	width: 50.5%;
 }
 .favorite-btn {
-  width: 14%;
-  height: 2%;
-  padding: 10px;
-  background-color: transparent;
-  border: none;
-  padding: 1px;
+	width: 14%;
+	height: 2%;
+	padding: 10px;
+	background-color: transparent;
+	border: none;
+	padding: 1px;
 }
 
 h2 {
-  border: #000 1px solid;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-left-width: 0px;
+	border: #000 1px solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
 }
 .iconify {
-  display: block;
-  font-size: 30px;
+	display: block;
+	font-size: 30px;
 }
 
 .currentLocation {
-  font-size: 120%;
-  font-weight: 700;
+	font-size: 120%;
+	font-weight: 700;
 }
 .addedLocate {
-  padding-left: 5px;
+	padding-left: 5px;
 }
 .favoriteCountry {
-  list-style-type: none;
-  padding: 5px 0px 0px 10px;
-  font-weight: 700;
-  font-size: 140%;
-  height: auto;
+	list-style-type: none;
+	padding: 5px 0px 0px 10px;
+	font-weight: 700;
+	font-size: 140%;
+	height: auto;
 }
 .heart {
-  width: 40px;
-  height: 40px;
-  transition: color 1.1s ease;
+	width: 40px;
+	height: 40px;
+	transition: color 1.1s ease;
 }
 .heart:hover {
-  color: rgb(206, 34, 34);
-  transition: opacity 1.1s ease;
+	color: rgb(206, 34, 34);
+	transition: opacity 1.1s ease;
 }
 li {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 5px;
 }
 .iconify {
-  display: block;
-  font-size: 30px;
+	display: block;
+	font-size: 30px;
+}
+.extraBlock {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+.line {
+	width: 90%;
+	height: 100%;
+	border-top: 1px solid #afacac;
+	border-bottom: 1px solid #afacac;
+}
+.forecastCard {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+.iconForecast {
+	width: 40%;
+	height: 100%;
 }
